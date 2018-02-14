@@ -26,3 +26,24 @@ html {
   box-sizing: inherit;
   font: inherit;
 }
+
+
+@media (max-width: 599px) {
+  .small {
+    display: block;
+  }
+
+  .large {
+    display: none;
+  }
+}
+
+@media (min-width: 600px) {
+  .small {
+    display: none;
+  }
+
+  .large {
+    display: block;
+  }
+}
