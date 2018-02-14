@@ -3,6 +3,14 @@
 This is a test repo to demonstrate server-side rendering while using `window.matchMedia` (using [react-media](https://github.com/ReactTraining/react-media))
 to perform media queries.
 
+## Running it
+
+```
+yarn install
+
+yarn ssr
+open localhost:3000
+```
 
 ## Explanation
 
@@ -25,16 +33,6 @@ in the console.
 
 This is a toy example, so the flash happens VERY quickly. But, you can imagine what would happen if the connection was slow
 and/or the example was a large application with a lot of markup, JS, and styles.
-
-
-## Running it
-
-```
-yarn install
-
-yarn ssr
-open localhost:3000
-```
 
 ## References
 
