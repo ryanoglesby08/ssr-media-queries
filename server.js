@@ -26,6 +26,8 @@ function renderFullPage(html) {
     <html>
       <head>
         <title>Test react media</title>
+        
+        <link href="dist/style.css" rel="stylesheet" />
       </head>
       <body>
         <div id="root">${html}</div>
